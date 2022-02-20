@@ -1,0 +1,373 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+ html{
+   scroll-behavior: smooth;
+ }
+:active,
+:hover,
+:focus{
+  outline: 0 !important;
+  outline-offset: 0;
+}
+a:hover{
+  color: #f5ce93!important;
+}
+
+
+  /*----------------------------------
+                header design
+    ----------------------------------*/
+  .nav-link{
+ 
+    font-weight: bold;
+    color: #FBEAD1 !important;
+    
+  
+  }
+
+  #navbarSupportedContent{
+    
+    position: absolute;
+    z-index: 1; 
+   
+    width: 400px;
+    top: 40px;
+  
+  }
+  
+
+ #header{
+
+ 
+   background-image: url(/img/Component\ 164.svg);
+   background-repeat: no-repeat;
+   background-size:100%;
+   height: 850px;
+ 
+   padding:0 !important;
+   margin:0;
+ 
+ }
+
+
+
+
+ .middle{
+ 
+  z-index: -1;
+   position: relative;
+  display: flex;
+top: 400px;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  justify-content: center;
+
+
+}
+
+ .middle p{
+  
+  position: relative;
+  
+   display: block;
+
+ 
+left:300px;
+
+width: 500px;
+height: 350px;
+  color: #34786B;
+  font-size:36px;
+  transition: transform .2s;
+
+ }
+
+.img-1{
+  cursor: pointer;
+}
+ 
+.img-1:hover{
+  transform: scale(1.2);
+}
+ 
+
+ @media (max-width: 1222px) {
+  .middle{
+    position: relative;
+    width: 100%;
+    height: 200px;
+position: relative;
+
+
+
+
+  
+  }
+  .middle p{
+    position:absolute;
+    left: 500px;
+    
+  width: 400px;
+  height: 200px;
+    color: #34786B;
+    font-size:30px;
+  
+
+ }}
+
+ @media (max-width: 991px) {
+  #navbarSupportedContent{
+    
+   background-color: #34786B;
+   opacity: 0.9;
+   transform: scale(1.0);
+  }
+  
+  .middle{
+    position: relative;
+    width: 100%;
+    height: 200px;
+position: relative;
+
+margin-top: -190px;
+
+ 
+
+  
+  }
+  .middle p{
+    position:absolute;
+    left: 400px;
+
+  width: 300px;
+  height: 200px;
+    color: #34786B;
+    font-size:25px;
+  
+
+ }}
+
+ @media (max-width: 700px) {
+  .middle{
+    position: relative;
+    width: 100%;
+    height: 200px;
+position: relative;
+
+margin-top: -250px;
+ 
+
+  
+  }
+  .middle p{
+    position: absolute;
+    left: 300px;
+   
+  width: 200px;
+  height: 200px;
+    color: #34786B;
+    font-size:25px;
+  
+
+ }
+ p img{
+ 
+  width:70px ;
+ }
+}
+
+@media (max-width: 500px) {
+  .middle{
+
+    width: 100%;
+    height: 200px;
+position: relative;
+margin-top: -300px;
+
+
+
+
+  
+  }
+  .middle p{
+    position: absolute;
+  left:200px;
+   
+  width:200px;
+  height: 150px;
+    color: #34786B;
+    font-size:18px;
+  
+
+ }
+ p img{
+
+  width:70px ;
+ }
+}
+
+
+
+@media (max-width: 400px) {
+  .middle{
+
+    width: 100%;
+    height: 200px;
+position: relative;
+margin-top: -300px;
+  
+  }
+  .middle p{
+    position: absolute;
+  left:140px;
+
+  width: 150px;
+  height: 150px;
+    color: #34786B;
+    font-size:15px;
+  
+
+ }
+ p img{
+
+  width:50px ;
+ }
+}
+
+  /*------ sidebar -----*/
+
+#sidebar{
+ 
+
+  position: relative;
+  top: 500px;
+  
+  background-image: url(/img/18\ .svg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:300px;
+
+  padding:0 !important;
+  margin:0;
+
+
+
+}
+
+
+#sidelayout{
+  width: 100%;
+  flex-wrap: wrap;
+
+  position: absolute;
+  top: 50px;
+  bottom: 55px;
+  padding: 100px;
+align-content: center;
+text-align: center;
+}
+#sidelayout .col{
+ display: flex;
+  color: #34786B;
+  
+  text-align: center;
+}
+#sidelayout p{
+  
+justify-content: center;
+width: 100%;
+overflow: hidden;
+width: 180px;
+margin-top: 10px;
+  text-align: center;
+
+  
+}
+    
+
+@media (max-width: 590px){
+  #sidelayout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+  #sidelayout .col{
+
+padding: 10px;
+display: flex;
+margin: auto;
+justify-content: center;
+ }
+ #sidelayout p{
+
+  overflow: hidden;
+    margin-left: auto;
+    text-align: center;
+  width:100px ;
+  font-size: 10px;
+  width: 100%;
+justify-content: center;
+
+    
+  }
+  #sidelayout .col img{
+
+  width: 50px;
+  }
+}
+
+
+/*----------------------------------
+          section-1 about
+  --------------------------------*/
+.about{
+
+  margin-top: 500px;
+}
+.about-text { 
+
+margin-top: 150px;
+ 
+}
+.about-img{
+  
+  text-align: center;
+}
+.about-text h1{
+  color: #34786B;
+}
+.about-text p{
+  color: #707070;
+  font-size: 1.5rem;
+}
+/*
+.about .col img{
+  border: 2px solid red;
+
+}
+*/
+
+@media (max-width: 1200px){
+  .about{
+   
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 990px){
+  .about .col img{
+    width: 300px;
+  
+  }
+  .about-text{
+    margin-top: 0;
+  }
+}
